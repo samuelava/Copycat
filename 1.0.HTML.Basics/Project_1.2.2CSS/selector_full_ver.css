@@ -1,0 +1,41 @@
+/*standard typ-selektorer*/
+
+main{
+  font-size: 2em;
+  columns: 3;
+}
+
+p{
+  margin:0;
+}
+
+/*och klass-selektorer*/
+.writers{
+  break-before: column;
+}
+
+.analysis{
+  margin-top:5%;
+}
+
+/*och id-selektor*/
+#poe{
+  font-family: "Garamond", "Times New Roman", serif;
+}
+
+p.qoute#poe{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Now some cooler stuff B) */
+
+.writers > p{
+  font-size: 3rem ;
+}
+
+.writers p{
+  color: gold;
+}
+
+.analysis + p{
+  color: blueviolet;
+}
